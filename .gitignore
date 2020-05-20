@@ -1,0 +1,91 @@
+# General Maven
+target
+.sonar
+*versionsBackup
+
+# Intellij
+.idea
+*.iml
+*.class
+code-style
+
+# vscode
+.settings/
+.classpath
+.project
+.factorypath
+
+# Site software clutter
+harvester/axis.xls
+harvester/test.dat
+instrument-agent/null/
+reduction-agent/sextractor/
+schemas/output.xml
+
+#Jade crud
+APDescription.txt
+MTPs-Main-Container.txt
+
+# ViM
+*.swp
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+=======
+*.pyc
+*.png
+.coverage
+image_table.out
+=======
+data
+dist
+satellite.egg-info/
+src/satellite.egg-info/
+.eggs
+jTcsConfig
