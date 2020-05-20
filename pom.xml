@@ -5,6 +5,11 @@
     <artifactId>naming</artifactId>
     <version>0.1.0</version>
     <packaging>jar</packaging>
+    <parent>
+        <artifactId>lcogt-pom</artifactId>
+        <groupId>org.lcogt</groupId>
+        <version>0.7.0</version>
+    </parent>
     <dependencies>
         <dependency>
             <groupId>org.jvnet.hyperjaxb3</groupId>
